@@ -1,0 +1,19 @@
+git config --global user.name RafaDiogoJ
+git config--global user.email rafabbta@hotmail.com
+
+
+Criar um Projeto angular =>
+ng new rdflix
+
+
+cd rdflix 
+
+ng serve -o
+
+Criação de Componentes =>
+ng g c pages/home
+(Cria a pasta pages e dentro dela o componente Home)
+
+
+Criação de serviço =>
+ng g s services/movieApi
