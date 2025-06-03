@@ -49,6 +49,7 @@ export class HomeComponent {
   popularActionMovieData() {
     this.service.popularActionMovieApiData().subscribe((result) => {
       this.popularActionMovieResults = result.results;
+      console.log(result)
     })
   }
 
